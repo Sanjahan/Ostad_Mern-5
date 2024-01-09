@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ostad_Assignment[Module_6]</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" />
+
+</head>
+
+<body>
+
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://cdn.vectorstock.com/i/1000x1000/78/70/set-collection-abstract-people-logo-vector-20897870.webp" alt="Icon" class="icon" alt="Logo">
+        </div>
+        <div class="navbar-title">
+            <p>Age_Spectrum</p>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>    
+
+
+    <div class="banner">
+        <div class="banner-content">
+            <h1>Welcome to Our Page!</h1>
+            <p>Please enter your age below...</p>
+            <input type="number" id="ageInput" placeholder="Enter Your Age">
+            <button onclick="checkAge()">Check Age</button>
+        </div>
+    </div>
+    
+
+    <div class="card-container">
+        <div class="card" id="ageCard" style="display: none;">
+            <h3>Your Age Status</h3>
+            <p id="ageStatus"></p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Age_Spectrum. All rights reserved.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
